@@ -4,7 +4,7 @@
 
   $id = $_GET['d'];
 
-  $query = mysqli_query($con, "SELECT a.*, b.nama AS nama_produk FROM pesanan a JOIN produk b ON a.produk_id=b.id");
+  $query = mysqli_query($con, "SELECT a.*, b.nama AS nama_produk FROM pesanan a JOIN produk b ON a.produk_id=b.id WHERE a.id=$id");
   $data = mysqli_fetch_array($query);
 
   $queryProduk = mysqli_query($con, "SELECT * FROM produk WHERE id!='$data[produk_id]'");
