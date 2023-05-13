@@ -1,0 +1,79 @@
+.primary {
+  background-color: #9D5A30;
+}
+.secondary {
+  background-color: #CA965C;
+}
+.tertiary{
+  background-color: #EEC373;
+}
+.quarternary {
+  background-color: #F4DFBA;
+}
+
+.header {
+  height: 80vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/header.jpg') center no-repeat;
+  background-size: cover;
+}
+
+#highlight-kategori a {
+  text-decoration: none !important;
+}
+#highlight-kategori a:hover {
+  color: #EEC373;
+}
+.highlight-kategori {
+  height: 250px;
+}
+
+.kategori-men {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/men.jpg') center no-repeat;
+  background-size: cover;
+}
+.kategori-women {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/women.jpg') center no-repeat;
+  background-size: cover;
+}
+.kategori-accessories {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/accessories.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.text-harga {
+  font-size: 20px;
+  font-weight: bold;
+  color: #CA965C;
+}
+
+.image-box {
+  height: 220px;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content-subscribe {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header2 {
+  height: 40vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/header.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.list-group a {
+  text-decoration: none;
+}
+
+.img-produk-terkait {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
